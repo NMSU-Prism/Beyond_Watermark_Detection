@@ -470,36 +470,3 @@ ls -lh "$BATCH/PRW_PRW"
 Each pair's sweep directory contains comparison CSVs, per-layout features and classifier outputs, completion metadata, and the plots produced by your installed sweep script. The batch root contains per-pair timing logs, average-width settings, and the combined comparison CSVs from step 7.
 
 ## Interpretation and reporting
-<<<<<<< HEAD
-
-- Fit scaling and classifier parameters using training data only.
-- Select layouts, counts, classifier settings, and any tuned decision threshold using validation data.
-- Use the test partition to report the selected configuration's final performance. Mark the maximum across inspected test configurations as descriptive, not an independently selected result.
-- Keep both histories from the same source prompt in the same partition, using the existing prompt-group split.
-- Compare whole-text-only performance against whole-text-plus-window performance to measure the contribution of local scores.
-- Equal accuracy across layouts means the same number of correct predictions; it does not necessarily mean identical predictions or identical AUC.
-- The classifier addresses two known histories. Accuracy does not prove that the first watermark survived: identifying the last watermark can already help infer the order in this restricted setting.
-- Use the corrected PRW minimum-length run for controlled comparisons. Do not mix its results with the earlier minimum-100 PRW generation.
-
-## Troubleshooting
-
-**Missing average_window_width.txt:** complete step 4. Never append `|| exit 1` directly to a command in your interactive SSH shell; it can terminate the session.
-
-**Missing features.csv:** complete an initial scoring layout in step 3. Use tables belonging to the same generation run; especially avoid the old PRW minimum-100 tables.
-
-**Only average-token results appear:** check that the launcher includes both widths. This guide supplies the average and 25 explicitly.
-
-**Invalid width argument:** your sweep version may still restrict widths to 25 and 59. Use the previously updated arbitrary-width version before continuing.
-
-**Missing COMPLETE.json:** the source run is not marked complete. Finish and verify that run before starting its sweep.
-
-**Interrupted sweep:** retain its directory and logs. Consult your installed script's resume behavior before rerunning that exact invocation. Running this launcher again deliberately creates a fresh batch rather than resuming the old one.
-
-## Validation status of this README
-
-The embedded Python and shell blocks were checked for syntax when this file was created. The experiments were not executed on your remote servers as part of writing this README. Their actual success and timing depend on your installed project code, source files, and environment.
-
-=======
-## Troubleshooting
-## Validation status of this README
->>>>>>> 91cec8f (added readme)
