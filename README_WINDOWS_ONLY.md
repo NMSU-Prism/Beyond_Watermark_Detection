@@ -98,6 +98,7 @@ PY
 
 ## Reuse and fair comparison
 
+<<<<<<< HEAD
 No text generation is repeated. Scoring may run again if compatible source evidence is unavailable. Cached evidence is checked against configuration/data hashes. For resuming a partial sweep, rerun its printed Python command with the exact same --out and settings; invoking the launcher again creates a new batch.
 
 Compare against whole-plus-window experiments with the same texts, prompt-group splits, window widths/counts, and classifier settings. Select configurations using validation data. Test differences need uncertainty analysis before being called significant. No accuracy improvement is guaranteed by removing whole scores.
@@ -105,3 +106,7 @@ Compare against whole-plus-window experiments with the same texts, prompt-group 
 ## Verification performed
 
 Boundary, feature-count and whole-score-exclusion checks passed for K=1 through 9 using synthetic evidence. A synthetic end-to-end test trained all three estimators, saved/reloaded models, and verified their input columns and predictions. No real GPU generation or real-data accuracy was measured while creating this add-on.
+=======
+## Verification performed
+
+>>>>>>> 91cec8f (added readme)

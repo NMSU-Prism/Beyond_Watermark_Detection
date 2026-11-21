@@ -470,6 +470,7 @@ ls -lh "$BATCH/PRW_PRW"
 Each pair's sweep directory contains comparison CSVs, per-layout features and classifier outputs, completion metadata, and the plots produced by your installed sweep script. The batch root contains per-pair timing logs, average-width settings, and the combined comparison CSVs from step 7.
 
 ## Interpretation and reporting
+<<<<<<< HEAD
 
 - Fit scaling and classifier parameters using training data only.
 - Select layouts, counts, classifier settings, and any tuned decision threshold using validation data.
@@ -498,3 +499,7 @@ Each pair's sweep directory contains comparison CSVs, per-layout features and cl
 
 The embedded Python and shell blocks were checked for syntax when this file was created. The experiments were not executed on your remote servers as part of writing this README. Their actual success and timing depend on your installed project code, source files, and environment.
 
+=======
+## Troubleshooting
+## Validation status of this README
+>>>>>>> 91cec8f (added readme)
