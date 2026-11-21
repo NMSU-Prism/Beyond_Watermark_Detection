@@ -1,0 +1,13 @@
+{
+  "embedding_model": "perceptiveshawty/compositional-bert-large-uncased",
+  "embedding_revision": "c08de045c8ca917e7327d21ed525581330e638a4",
+  "target_model": "meta-llama/Llama-3.2-1B-Instruct",
+  "target_revision": "9213176726f574b556790deb65791e0c5aa438b6",
+  "vocab_size": 128256,
+  "mapping_seed": 42,
+  "files": {
+    "transform_model_cbert.pth": "d68f32e31628deeeab50fbb50e5e8725d41afa4f35c94bd639437653e0709e76",
+    "mapping.json": "f2b5e03e0a88aee4ea0412db563b46b7dfe472b5f2d72dce7decb3694f89d93e"
+  },
+  "note": "Persist this mapping for BOTH generation and detection. SIR context has no per-user watermark key."
+}

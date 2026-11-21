@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/AInnovateLab/watermark-collision",
+  "commit": "bf9470f436a6161d4e66a22dfa030b5121a00b86",
+  "paper": "https://aclanthology.org/2025.findings-naacl.37.pdf",
+  "vendored": ["PRW/gptwm.py", "PRW/LICENSE", "SIR/watermark.py", "SIR/train_watermark_model.py", "LICENSE"],
+  "vendor_modifications": "PRW LogitsWarper import falls back to LogitsProcessor when the former API is absent. Algorithm and score formulas unchanged.",
+  "adapter_changes": [
+    "SIR checkpoint/mapping resolved from explicit persisted assets rather than mutable working-directory defaults.",
+    "Embedding and transformation networks put in eval mode for deterministic inference; pinned embedding revision. Upstream wrapper did not explicitly set eval mode.",
+    "SIR native no-evidence NaN represented by null and availability flag; zero-imputed only at classifier input export.",
+    "Added section-level features, order labels, grouped splits and OLS/SVM/MLP evaluation; these are research extensions, not claims of paper order-attribution code."
+  ]
+}

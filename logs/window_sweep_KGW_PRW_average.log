@@ -1,0 +1,139 @@
+{"reused_native_evidence": 6000}
+{"layout": "whole", "model": "linear", "elapsed_seconds": 0.16, "validation_accuracy": 0.9422222222222222, "test_accuracy": 0.9277777777777778}
+{"layout": "whole", "model": "svm", "elapsed_seconds": 0.32, "validation_accuracy": 0.9388888888888889, "test_accuracy": 0.9277777777777778}
+{"layout": "whole", "model": "mlp", "elapsed_seconds": 0.3, "validation_accuracy": 0.94, "test_accuracy": 0.9288888888888889}
+{"layouts_completed": 1, "layouts_total": 19, "training_session_seconds": 0.92}
+{"layout": "dynamic4", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9388888888888889, "test_accuracy": 0.9288888888888889}
+{"layout": "dynamic4", "model": "svm", "elapsed_seconds": 0.36, "validation_accuracy": 0.9333333333333333, "test_accuracy": 0.9233333333333333}
+{"layout": "dynamic4", "model": "mlp", "elapsed_seconds": 1.48, "validation_accuracy": 0.92, "test_accuracy": 0.9222222222222223}
+{"layouts_completed": 2, "layouts_total": 19, "training_session_seconds": 3.24}
+{"layout": "dynamic5", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9444444444444444, "test_accuracy": 0.9277777777777778}
+{"layout": "dynamic5", "model": "svm", "elapsed_seconds": 0.37, "validation_accuracy": 0.9411111111111111, "test_accuracy": 0.92}
+{"layout": "dynamic5", "model": "mlp", "elapsed_seconds": 1.49, "validation_accuracy": 0.9166666666666666, "test_accuracy": 0.9166666666666666}
+{"layouts_completed": 3, "layouts_total": 19, "training_session_seconds": 5.62}
+{"layout": "dynamic6", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.93}
+{"layout": "dynamic6", "model": "svm", "elapsed_seconds": 0.38, "validation_accuracy": 0.9377777777777778, "test_accuracy": 0.9288888888888889}
+{"layout": "dynamic6", "model": "mlp", "elapsed_seconds": 1.5, "validation_accuracy": 0.9111111111111111, "test_accuracy": 0.8988888888888888}
+{"layouts_completed": 4, "layouts_total": 19, "training_session_seconds": 8.06}
+{"layout": "dynamic7", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9466666666666667, "test_accuracy": 0.9277777777777778}
+{"layout": "dynamic7", "model": "svm", "elapsed_seconds": 0.4, "validation_accuracy": 0.9444444444444444, "test_accuracy": 0.9211111111111111}
+{"layout": "dynamic7", "model": "mlp", "elapsed_seconds": 1.52, "validation_accuracy": 0.9022222222222223, "test_accuracy": 0.8888888888888888}
+{"layouts_completed": 5, "layouts_total": 19, "training_session_seconds": 10.57}
+{"layout": "dynamic8", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9433333333333334, "test_accuracy": 0.9288888888888889}
+{"layout": "dynamic8", "model": "svm", "elapsed_seconds": 0.4, "validation_accuracy": 0.9377777777777778, "test_accuracy": 0.9222222222222223}
+{"layout": "dynamic8", "model": "mlp", "elapsed_seconds": 1.55, "validation_accuracy": 0.8977777777777778, "test_accuracy": 0.8944444444444445}
+{"layouts_completed": 6, "layouts_total": 19, "training_session_seconds": 13.17}
+{"layout": "dynamic9", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.95, "test_accuracy": 0.9277777777777778}
+{"layout": "dynamic9", "model": "svm", "elapsed_seconds": 0.41, "validation_accuracy": 0.9322222222222222, "test_accuracy": 0.9255555555555556}
+{"layout": "dynamic9", "model": "mlp", "elapsed_seconds": 1.58, "validation_accuracy": 0.8711111111111111, "test_accuracy": 0.8955555555555555}
+{"layouts_completed": 7, "layouts_total": 19, "training_session_seconds": 15.83}
+{"layout": "fixed84x4", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9477777777777778, "test_accuracy": 0.9288888888888889}
+{"layout": "fixed84x4", "model": "svm", "elapsed_seconds": 0.35, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9266666666666666}
+{"layout": "fixed84x4", "model": "mlp", "elapsed_seconds": 0.52, "validation_accuracy": 0.9477777777777778, "test_accuracy": 0.9266666666666666}
+{"layouts_completed": 8, "layouts_total": 19, "training_session_seconds": 17.15}
+{"layout": "fixed84x5", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9477777777777778, "test_accuracy": 0.9288888888888889}
+{"layout": "fixed84x5", "model": "svm", "elapsed_seconds": 0.35, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9266666666666666}
+{"layout": "fixed84x5", "model": "mlp", "elapsed_seconds": 0.74, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9288888888888889}
+{"layouts_completed": 9, "layouts_total": 19, "training_session_seconds": 18.71}
+{"layout": "fixed84x6", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9477777777777778, "test_accuracy": 0.9288888888888889}
+{"layout": "fixed84x6", "model": "svm", "elapsed_seconds": 0.35, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9266666666666666}
+{"layout": "fixed84x6", "model": "mlp", "elapsed_seconds": 0.45, "validation_accuracy": 0.9466666666666667, "test_accuracy": 0.9266666666666666}
+{"layouts_completed": 10, "layouts_total": 19, "training_session_seconds": 20.02}
+{"layout": "fixed84x7", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9477777777777778, "test_accuracy": 0.9288888888888889}
+{"layout": "fixed84x7", "model": "svm", "elapsed_seconds": 0.37, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9266666666666666}
+{"layout": "fixed84x7", "model": "mlp", "elapsed_seconds": 0.46, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9288888888888889}
+{"layouts_completed": 11, "layouts_total": 19, "training_session_seconds": 21.38}
+{"layout": "fixed84x8", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9477777777777778, "test_accuracy": 0.9288888888888889}
+{"layout": "fixed84x8", "model": "svm", "elapsed_seconds": 0.36, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9266666666666666}
+{"layout": "fixed84x8", "model": "mlp", "elapsed_seconds": 0.74, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9222222222222223}
+{"layouts_completed": 12, "layouts_total": 19, "training_session_seconds": 23.16}
+{"layout": "fixed84x9", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9477777777777778, "test_accuracy": 0.9288888888888889}
+{"layout": "fixed84x9", "model": "svm", "elapsed_seconds": 0.37, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9266666666666666}
+{"layout": "fixed84x9", "model": "mlp", "elapsed_seconds": 0.47, "validation_accuracy": 0.94, "test_accuracy": 0.9255555555555556}
+{"layouts_completed": 13, "layouts_total": 19, "training_session_seconds": 24.59}
+{"layout": "fixed25x4", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9444444444444444, "test_accuracy": 0.9344444444444444}
+{"layout": "fixed25x4", "model": "svm", "elapsed_seconds": 0.36, "validation_accuracy": 0.9411111111111111, "test_accuracy": 0.93}
+{"layout": "fixed25x4", "model": "mlp", "elapsed_seconds": 1.47, "validation_accuracy": 0.9266666666666666, "test_accuracy": 0.9122222222222223}
+{"layouts_completed": 14, "layouts_total": 19, "training_session_seconds": 26.89}
+{"layout": "fixed25x5", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9455555555555556, "test_accuracy": 0.9377777777777778}
+{"layout": "fixed25x5", "model": "svm", "elapsed_seconds": 0.38, "validation_accuracy": 0.9388888888888889, "test_accuracy": 0.9288888888888889}
+{"layout": "fixed25x5", "model": "mlp", "elapsed_seconds": 1.47, "validation_accuracy": 0.9177777777777778, "test_accuracy": 0.9222222222222223}
+{"layouts_completed": 15, "layouts_total": 19, "training_session_seconds": 29.24}
+{"layout": "fixed25x6", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9466666666666667, "test_accuracy": 0.9366666666666666}
+{"layout": "fixed25x6", "model": "svm", "elapsed_seconds": 0.41, "validation_accuracy": 0.94, "test_accuracy": 0.9311111111111111}
+{"layout": "fixed25x6", "model": "mlp", "elapsed_seconds": 1.5, "validation_accuracy": 0.9188888888888889, "test_accuracy": 0.9111111111111111}
+{"layouts_completed": 16, "layouts_total": 19, "training_session_seconds": 31.67}
+{"layout": "fixed25x7", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9444444444444444, "test_accuracy": 0.9322222222222222}
+{"layout": "fixed25x7", "model": "svm", "elapsed_seconds": 0.41, "validation_accuracy": 0.94, "test_accuracy": 0.9244444444444444}
+{"layout": "fixed25x7", "model": "mlp", "elapsed_seconds": 1.5, "validation_accuracy": 0.9266666666666666, "test_accuracy": 0.9177777777777778}
+{"layouts_completed": 17, "layouts_total": 19, "training_session_seconds": 34.13}
+{"layout": "fixed25x8", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9444444444444444, "test_accuracy": 0.9322222222222222}
+{"layout": "fixed25x8", "model": "svm", "elapsed_seconds": 0.41, "validation_accuracy": 0.94, "test_accuracy": 0.9222222222222223}
+{"layout": "fixed25x8", "model": "mlp", "elapsed_seconds": 1.45, "validation_accuracy": 0.9222222222222223, "test_accuracy": 0.9211111111111111}
+{"layouts_completed": 18, "layouts_total": 19, "training_session_seconds": 36.57}
+{"layout": "fixed25x9", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9444444444444444, "test_accuracy": 0.9322222222222222}
+{"layout": "fixed25x9", "model": "svm", "elapsed_seconds": 0.41, "validation_accuracy": 0.94, "test_accuracy": 0.9222222222222223}
+{"layout": "fixed25x9", "model": "mlp", "elapsed_seconds": 1.55, "validation_accuracy": 0.9333333333333333, "test_accuracy": 0.9177777777777778}
+{"layouts_completed": 19, "layouts_total": 19, "training_session_seconds": 39.15}
+
+VALIDATION RESULTS
+   layout  model  n_features  accuracy  macro_f1      auc
+ dynamic9 linear          20  0.950000  0.950000 0.982528
+fixed84x4 linear          10  0.947778  0.947777 0.983753
+fixed84x4    mlp          10  0.947778  0.947777 0.983501
+fixed84x5 linear          12  0.947778  0.947777 0.983753
+fixed84x6 linear          14  0.947778  0.947777 0.983753
+fixed84x7 linear          16  0.947778  0.947777 0.983753
+fixed84x8 linear          18  0.947778  0.947777 0.983753
+fixed84x9 linear          20  0.947778  0.947777 0.983753
+ dynamic7 linear          16  0.946667  0.946667 0.983047
+fixed84x6    mlp          14  0.946667  0.946666 0.983556
+fixed25x6 linear          14  0.946667  0.946666 0.983215
+ dynamic6 linear          14  0.945556  0.945555 0.982751
+fixed84x7    mlp          16  0.945556  0.945555 0.983353
+fixed84x5    mlp          12  0.945556  0.945555 0.983146
+fixed25x5 linear          12  0.945556  0.945555 0.983072
+fixed84x8    mlp          18  0.945556  0.945555 0.982889
+fixed84x4    svm          10  0.945556  0.945554 0.981358
+fixed84x5    svm          12  0.945556  0.945554 0.981358
+fixed84x6    svm          14  0.945556  0.945554 0.981358
+fixed84x7    svm          16  0.945556  0.945554 0.981358
+fixed84x8    svm          18  0.945556  0.945554 0.981358
+fixed84x9    svm          20  0.945556  0.945554 0.981358
+fixed25x4 linear          10  0.944444  0.944444 0.982489
+ dynamic5 linear          12  0.944444  0.944444 0.982909
+fixed25x7 linear          16  0.944444  0.944444 0.983141
+fixed25x8 linear          18  0.944444  0.944444 0.983205
+fixed25x9 linear          20  0.944444  0.944444 0.983205
+ dynamic7    svm          16  0.944444  0.944443 0.979906
+ dynamic8 linear          18  0.943333  0.943333 0.982943
+    whole linear           2  0.942222  0.942221 0.983158
+ dynamic5    svm          12  0.941111  0.941110 0.981007
+fixed25x4    svm          10  0.941111  0.941109 0.980069
+    whole    mlp           2  0.940000  0.939999 0.982649
+fixed25x6    svm          14  0.940000  0.939999 0.979951
+fixed25x7    svm          16  0.940000  0.939999 0.980128
+fixed25x8    svm          18  0.940000  0.939999 0.980519
+fixed25x9    svm          20  0.940000  0.939999 0.980519
+fixed84x9    mlp          20  0.940000  0.939995 0.983165
+ dynamic4 linear          10  0.938889  0.938889 0.982706
+fixed25x5    svm          12  0.938889  0.938888 0.980291
+    whole    svm           2  0.938889  0.938885 0.973410
+ dynamic8    svm          18  0.937778  0.937775 0.981289
+ dynamic6    svm          14  0.937778  0.937770 0.980430
+fixed25x9    mlp          20  0.933333  0.933330 0.968415
+ dynamic4    svm          10  0.933333  0.933328 0.981886
+ dynamic9    svm          20  0.932222  0.932218 0.979101
+fixed25x4    mlp          10  0.926667  0.926666 0.975279
+fixed25x7    mlp          16  0.926667  0.926666 0.971373
+fixed25x8    mlp          18  0.922222  0.922198 0.968721
+ dynamic4    mlp          10  0.920000  0.920000 0.975551
+fixed25x6    mlp          14  0.918889  0.918886 0.966780
+fixed25x5    mlp          12  0.917778  0.917777 0.970010
+ dynamic5    mlp          12  0.916667  0.916662 0.972069
+ dynamic6    mlp          14  0.911111  0.911083 0.964484
+ dynamic7    mlp          16  0.902222  0.902222 0.961886
+ dynamic8    mlp          18  0.897778  0.897770 0.959911
+ dynamic9    mlp          20  0.871111  0.871003 0.948454
+
+Saved comparisons: runs/window_sweep_KGW_PRW_average

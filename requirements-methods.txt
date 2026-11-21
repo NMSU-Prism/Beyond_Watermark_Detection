@@ -1,0 +1,6 @@
+# Additional to your working order_detect environment; do not replace CUDA PyTorch.
+jieba
+sentencepiece
+matplotlib
+scipy
+huggingface_hub

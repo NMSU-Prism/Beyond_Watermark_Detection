@@ -1,0 +1,20 @@
+{"reused_native_evidence": 6000}
+{"layout": "dynamic3", "model": "linear", "elapsed_seconds": 0.16, "validation_accuracy": 0.9033333333333333, "test_accuracy": 0.9}
+{"layout": "dynamic3", "model": "svm", "elapsed_seconds": 0.41, "validation_accuracy": 0.9022222222222223, "test_accuracy": 0.8922222222222222}
+{"layout": "dynamic3", "model": "mlp", "elapsed_seconds": 1.33, "validation_accuracy": 0.8966666666666666, "test_accuracy": 0.8933333333333333}
+{"layouts_completed": 1, "layouts_total": 2, "training_session_seconds": 2.19}
+{"layout": "fixed80x3", "model": "linear", "elapsed_seconds": 0.1, "validation_accuracy": 0.9044444444444445, "test_accuracy": 0.9011111111111111}
+{"layout": "fixed80x3", "model": "svm", "elapsed_seconds": 0.41, "validation_accuracy": 0.9033333333333333, "test_accuracy": 0.9011111111111111}
+{"layout": "fixed80x3", "model": "mlp", "elapsed_seconds": 0.57, "validation_accuracy": 0.8977777777777778, "test_accuracy": 0.9022222222222223}
+{"layouts_completed": 2, "layouts_total": 2, "training_session_seconds": 3.55}
+
+VALIDATION RESULTS
+   layout  model  n_features  accuracy  macro_f1      auc
+fixed80x3 linear           8  0.904444  0.904433 0.964775
+fixed80x3    svm           8  0.903333  0.903327 0.958040
+ dynamic3 linear           8  0.903333  0.903324 0.963491
+ dynamic3    svm           8  0.902222  0.902214 0.954336
+fixed80x3    mlp           8  0.897778  0.897776 0.963990
+ dynamic3    mlp           8  0.896667  0.896638 0.950647
+
+Saved comparisons: runs/window_sweep_PRW_PRW_actualmin25_average_count3

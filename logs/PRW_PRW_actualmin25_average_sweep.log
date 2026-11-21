@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/santosha/order_detect/window_sweep.py", line 225, in <module>
+    else:run(a)
+         ~~~^^^
+  File "/home/santosha/order_detect/window_sweep.py", line 183, in run
+    if p.exists() and json.loads(p.read_text())!=specification:raise ValueError('Sweep resume mismatch; use new --out')
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Sweep resume mismatch; use new --out
